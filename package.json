@@ -1,0 +1,38 @@
+{
+  "name": "@wiidede/comment-core-library",
+  "type": "module",
+  "version": "0.1.0",
+  "packageManager": "pnpm@8.15.4",
+  "description": "wiidede's comment-core-library that exports CommentManager",
+  "author": "wiidede <wiixdede@gmail.com>",
+  "license": "MIT",
+  "funding": "https://wiidede.space/sponsor",
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/CommentCoreLibrary.d.ts",
+      "import": "./src/CommentCoreLibrary.js"
+    },
+    "./style.css": "./src/style.css",
+    "./src/style.css": "./src/style.css"
+  },
+  "module": "./src/CommentCoreLibrary.js",
+  "types": "./src/CommentCoreLibrary.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./src/*",
+        "./src/CommentCoreLibrary.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
